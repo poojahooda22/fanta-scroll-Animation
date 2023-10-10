@@ -39,5 +39,6 @@ nav a {
 
 cntr-nav {
     display: flex;
-    gap: 3vw
+    gap: 3vw;
+    
 }
