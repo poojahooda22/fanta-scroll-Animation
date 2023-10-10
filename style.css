@@ -34,11 +34,12 @@ nav {
 }
 
 nav a {
+    font-size: 
     text-decoration: none;
 }
 
 cntr-nav {
     display: flex;
     gap: 3vw;
-    
+
 }
