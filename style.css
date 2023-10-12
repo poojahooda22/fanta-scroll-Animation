@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
-    background: black;
+    background: linear-gradient(120deg, rgb(27, 255, 212), rgb(0, 128, 128));
 }
 
 html, body {
