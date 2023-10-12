@@ -35,11 +35,11 @@ nav {
 }
 
 nav a {
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     text-decoration: none;
 }
 
-cntr-nav {
+.cntr-nav {
     display: flex;
     gap: 6vw;
 
