@@ -6,6 +6,10 @@
     font-family: Product-Reg;
     src: url(./fonts//Product\ Sans\ Regular.ttf);
 }
+@font-face {
+    font-family: 'monospace';
+    src: url(./fonts//Product\ Sans\ Regular.ttf);
+}
 
 * {
     margin: 0;
@@ -17,8 +21,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    background-color: #ff7c26;
-    font-family: Product-Reg;
+    font-family: monospace;
 }
 
 #main {
@@ -27,12 +30,13 @@ html, body {
 }
 
 nav {
+    position: fixed;
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0vw 10vw;
+    padding: 0vw 5vw;
 }
 
 nav a {
@@ -53,11 +57,93 @@ nav, a, i {
 }
 
 .one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(120deg #ff7c26);
+    background: linear-gradient(100deg, #FF9C56, #FF8E35);
+}
+
+.one h1 {
+    font-size: 25vw;
+    font-family: monospace;
+    color: #fff;
 }
 
 #fanta {
+    position: absolute;
     width: 40%;
+    z-index: 2;
+}
+
+#orangeCut {
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    z-index: 1;
+    width: 15%;
+}
+
+#orange {
+    position: absolute;
+    top: 55%;
+    right: 30%;
+    width: 18%;
+    z-index: 3;
+}
+#leaf1 {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    transform: rotate(60deg);
+    width: 18%;
+}
+#leaf2 {
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    width: 12%;
+    transform: rotate(-90deg);
+}
+#leaf3 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 15%;
+}
+
+.two {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-two, .right-two{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.left-two svg {
+    margin-top: 30vh;
+    width: 80%;
+    transform: rotate(170deg);
+}
+
+.right-two h2{
+    font-size: 3vw;
+    font-weight: bold
+}
+
+.right-two p{
+    margin-top: 12px;
+    font-family: Product-Reg;
+    font-size: 1vw;
+    letter-spacing: 0cap;
+    color: gray;
+    width: 80%;
 }
