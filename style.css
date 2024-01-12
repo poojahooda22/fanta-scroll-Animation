@@ -153,6 +153,7 @@ nav, a, i {
 }
 
 .three {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,9 +164,62 @@ nav, a, i {
 }
 
 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
     margin-top: 10vh;
     width: 350px;
     height: 500px;
     background-color: #ffffff; 
     border-radius: 30px;
+}
+
+.card h2 {
+    margin-top: 30vh;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.card button {
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FF8E35;
+    color: #ffffff;
+    font-size: 1vw;    
+}
+
+#cocacola-btn {
+    background-color: #D8152E;
+}
+
+#pepsi-btn {
+    background-color: #0D63AD;
+}
+
+.lemon {
+    position: absolute;
+    top: 3%;
+    width: 24vw;
+}
+
+#cocacola {
+    position: absolute;
+   top: 18%;
+    width: 11%;
+}
+
+#fanta1 {
+    position: absolute;
+    top: 18%;
+    width: 28%;
+}
+
+#pepsi {
+    position: absolute;
+   top: 15%;
+    width: 17%;
 }
