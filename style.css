@@ -39,6 +39,11 @@ nav {
     padding: 0vw 5vw;
 }
 
+nav img {
+    width: 8vw;
+
+}
+
 nav a {
     font-size: 1.4vw;
     text-decoration: none;
@@ -53,7 +58,7 @@ nav a {
 nav, a, i {
     font-size: 1.4vw;
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 .one {
@@ -68,7 +73,7 @@ nav, a, i {
 .one h1 {
     font-size: 25vw;
     font-family: monospace;
-    color: #fff;
+    color: #ffffff;
 }
 
 #fanta {
@@ -129,7 +134,7 @@ nav, a, i {
 }
 
 .left-two svg {
-    margin-top: 30vh;
+    margin-top: 50vh;
     width: 80%;
     transform: rotate(170deg);
 }
@@ -143,7 +148,24 @@ nav, a, i {
     margin-top: 12px;
     font-family: Product-Reg;
     font-size: 1vw;
-    letter-spacing: 0cap;
     color: gray;
     width: 80%;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(100deg, #FF9C56, #FF8E35);
+}
+
+.card {
+    margin-top: 10vh;
+    width: 350px;
+    height: 500px;
+    background-color: #ffffff; 
+    border-radius: 30px;
 }
