@@ -47,6 +47,7 @@ nav img {
 nav a {
     font-size: 1.4vw;
     text-decoration: none;
+    color: #111;
 }
 
 .cntr-nav {
@@ -67,13 +68,13 @@ nav, a, i {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(100deg, #FF9C56, #FF8E35);
+    /* background: linear-gradient(100deg, #FF9C56, #FF8E35); */
 }
 
 .one h1 {
     font-size: 25vw;
     font-family: monospace;
-    color: #ffffff;
+    color: #004E8A;
 }
 
 #fanta {
@@ -146,7 +147,8 @@ nav, a, i {
 
 .right-two h2{
     font-size: 3vw;
-    font-weight: bold
+    font-weight: bold;
+    color: #004E8A;
 }
 
 .right-two p{
@@ -165,7 +167,7 @@ nav, a, i {
     gap: 10vw;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(100deg, #FF9C56, #FF8E35);
+    /* background: linear-gradient(100deg, #FF9C56, #FF8E35); */
 }
 
 .card {
@@ -184,7 +186,7 @@ nav, a, i {
 
 .card h2 {
     margin-top: 30vh;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: bold;
 }
 
@@ -202,30 +204,43 @@ nav, a, i {
     background-color: #D8152E;
 }
 
-#pepsi-btn {
-    background-color: #0D63AD;
+#dew-btn {
+    background-color: #05944F;
 }
 
 .lemon {
     position: absolute;
     top: -35%;
-    width: 20vw;
+    width: 18vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.lemon1 {
+    top: -39%;
+    width: 21vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
 #cocacola {
     position: absolute;
-   top: 18%;
-    width: 11%;
+    top: -12%;
+    width: 55%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
 #fanta1 {
     position: absolute;
     top: 18%;
     width: 28%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
-#pepsi {
+#dew {
     position: absolute;
-   top: 15%;
-    width: 17%;
+    top: -12%;
+    width: 56%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
