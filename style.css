@@ -80,6 +80,7 @@ nav, a, i {
     position: absolute;
     width: 40%;
     z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
 #orangeCut {
@@ -88,6 +89,7 @@ nav, a, i {
     left: 32%;
     z-index: 1;
     width: 15%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 
 #orange {
@@ -96,6 +98,7 @@ nav, a, i {
     right: 30%;
     width: 18%;
     z-index: 3;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 #leaf1 {
     position: absolute;
@@ -103,6 +106,7 @@ nav, a, i {
     left: 8%;
     transform: rotate(60deg);
     width: 18%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 #leaf2 {
     position: absolute;
@@ -110,6 +114,7 @@ nav, a, i {
     right: 10%;
     width: 12%;
     transform: rotate(-90deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
 }
 #leaf3 {
     position: absolute;
@@ -153,7 +158,7 @@ nav, a, i {
 }
 
 .three {
-    position: relative;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,6 +169,7 @@ nav, a, i {
 }
 
 .card {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,8 +208,8 @@ nav, a, i {
 
 .lemon {
     position: absolute;
-    top: 3%;
-    width: 24vw;
+    top: -35%;
+    width: 20vw;
 }
 
 #cocacola {
