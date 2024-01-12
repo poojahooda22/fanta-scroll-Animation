@@ -174,19 +174,19 @@ nav, a, i {
 .card {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     gap: 2vh;
     margin-top: 10vh;
+    padding-bottom: 5vh;
     width: 350px;
     height: 500px;
-    /* background-color: #ffffff;  */
+    /* background-color: #c24646;  */
     border-radius: 30px;
 }
 
 .card h2 {
-    margin-top: 30vh;
     font-size: 2vw;
     font-weight: bold;
 }
@@ -210,13 +210,20 @@ nav, a, i {
     background-color: #05944F;
 }
 
-.lemon {
+/* .lemon {
     position: absolute;
     top: -35%;
     width: 18vw;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
-}
+} */
 .lemon1 {
+    position: absolute;
+    top: -39%;
+    width: 21vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.lemon2 {
+    position: absolute;
     top: -39%;
     width: 21vw;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
