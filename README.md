@@ -1,6 +1,6 @@
 
 HTML, CSS, and JavaScript, integrating the GreenSock Animation Platform (GSAP) for dynamic effects. The core feature was the implementation of GSAP's ScrollTrigger.  
-xperience. 
+rience. 
 This approach resulted in a visually captivating and responsive site, offering users a seamless and interactive journey as they navigate through the content.
 
 
