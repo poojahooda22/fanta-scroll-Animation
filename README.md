@@ -1,7 +1,7 @@
 
 HTML, CSS, and JavaScript, integrating the GreenSock Animation Platform (GSAP) for dynamic effects. The core feature was the implementation of GSAP's ScrollTrigger.  
 
-This approach resulted in a visually captivating and responsive site, of
+This approach resulted in a visually captivating and responsive site,
 
 
 ![Screenshot 2024-01-12 162416](https://github.com/poojahooda22/fanta-scroll-Animation/assets/91055527/a7c73f4c-4d79-40eb-9f97-8b7e73fde4f7)
