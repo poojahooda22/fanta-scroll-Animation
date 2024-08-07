@@ -19,8 +19,7 @@
 }
 
 html, body {
-    height: 100%;
-    width: 100%;
+    width: 100vw;
     font-family: monospace;
 }
 body::-webkit-scrollbar {
@@ -165,13 +164,13 @@ nav, a, i {
 }
 
 .three {
-    
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10vw;
     width: 100%;
     height: 100vh;
+    overflow: hidden;;
     /* background: linear-gradient(100deg, #FF9C56, #FF8E35); */
 }
 
